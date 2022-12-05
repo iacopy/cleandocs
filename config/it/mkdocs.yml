@@ -1,0 +1,39 @@
+site_name: 'Sito'
+docs_dir: '../../docs/it'                           # Where to find the English markdown files
+site_dir: '../../generated/it'                      # Where to put the English HTML files
+
+theme:
+    name: material
+    custom_dir: '../../overrides/'                  # This is where the customization of the theme lives
+    logo: assets/images/logo.svg                    # The logo is shared by all languages
+    favicon: assets/images/favicon.ico              # The favicon is shared by all languages
+    language: it                                    # The build's language
+
+extra_css:
+  - assets/stylesheets/yesplan.css                  # CSS is shared by all languages
+
+extra:
+  alternate:                                        # Language Selection
+
+    # Switch to English
+    - name: English
+      link: /en/
+      lang: en
+
+    # Switch to Italian
+    - name: Italiano
+      link: /it/
+      lang: it
+
+    # Switch to French
+    - name: Français
+      link: /fr/
+      lang: fr
+
+plugins:
+  - search:                                         
+      lang: it                                      # Set language for search
+
+nav:
+- Benvenuto: index.md
+- chi-siamo.md
