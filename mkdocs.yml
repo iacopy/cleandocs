@@ -1,5 +1,7 @@
 site_name: Don't let me leave
 site_url: https://dontletmemeleave.com
-
 nav:
     - Home: index.md
+theme:
+    name: mkdocs
+    nav_style: dark
