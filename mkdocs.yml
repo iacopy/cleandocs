@@ -1,6 +1,5 @@
-site_name: MkDocs
+site_name: Don't let me leave
 site_url: https://dontletmemeleave.com
 
 nav:
     - Home: index.md
-    - About: about.md
