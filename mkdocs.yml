@@ -4,4 +4,3 @@ nav:
     - Home: index.md
 theme:
     name: mkdocs
-    nav_style: dark
